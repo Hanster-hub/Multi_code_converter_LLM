@@ -30,21 +30,20 @@ A Gradio app that uses LLMs to convert and run code across **Python**, **C++**, 
    OPENROUTER_API_KEY=your_openrouter_key
    ```
 
-3. Run the notebook
+3. Run the app
 
    ```bash
-   jupyter notebook multi_converter.ipynb
+   python app.py
    ```
-
-   Run all cells — the Gradio UI launches at the bottom.
 
 ## Project Structure
 
 ```
 .
-├── multi_converter.ipynb   # Main app: LLM conversion + Gradio UI
-├── styles.py               # Gradio CSS theme
-├── system_info.py          # OS, CPU, and toolchain detection utility
+├── app.py          # Gradio UI
+├── converter.py    # Core logic: LLM conversion, prompts, compile & run
+├── styles.py       # Gradio CSS theme
+├── system_info.py  # OS, CPU, and toolchain detection utility
 └── requirements.txt
 ```
 
