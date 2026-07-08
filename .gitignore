@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Compiled output files (generated at runtime)
+main.cpp
+main.rs
+main.py
+main.exe
+main
+
+# OS
+.DS_Store
